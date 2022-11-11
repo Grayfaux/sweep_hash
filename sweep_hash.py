@@ -52,8 +52,3 @@ def check_chain_hash(input_data, input_hash):
         return True
     else:
         return False
-
-x = sweep_hash("this is a test string for the sweep_hash function in the sweep_hash.py file in the hash_functions folder of the hash_functions repository on github")
-print(x)
-y = check_sweep_hash("this is a test string for the sweep_hash function in the sweep_hash.py file in the hash_functions folder of the hash_functions repository on github", x)
-print(y)
