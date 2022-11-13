@@ -42,8 +42,7 @@ def multiply_int_list(int_list, power):
     return multiplied_int_list
 
 
-# splits a list of integers into a given number of lists of equal length and pads the last list with zeros so that
-# all lists are the same length
+# splits a list of integers into a given number of lists of equal length
 def split_int_list(int_list, number_of_lists):
     split_list = []
     for i in range(number_of_lists):
