@@ -2,6 +2,7 @@
 sweep_hash takes in a string, single int or single float and returns a deterministic hash. chain_hash builds a list of n hashes each built on the last for high security hashes
 
 sweep_hash is a function that takes in a string, single int or single float and returns a deterministic hash
+data is run through 13 stages where data is manipulated and some leading and trailing data is swept off throughout the process and then the data moves on to the next stages
 
 chain_hash 
 runs the sweep_hash function on a given string a specified number of times and returns the final hash chain as a list of hashes
